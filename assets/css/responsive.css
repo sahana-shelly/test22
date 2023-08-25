@@ -1,0 +1,182 @@
+@media all and (max-width: 1180px) {
+    .sm-display-none {
+        display: none;
+    }
+
+    .lg-display-none {
+        display: block;
+    }
+
+    .logo-box {
+        width: 75px;
+        height: 75px;
+    }
+
+    .logo-box img {
+        max-width: 100% !important;
+    }
+
+    #header-menu {
+        position: relative;
+    }
+
+    .menu-items {
+        margin-top: 20px;
+        margin-right: -15px;
+    }
+
+    .navbar {
+        position: inherit;
+    }
+
+    nav ul li{
+        display: block;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+        color:#341612 !important;
+        line-height: 50px !important;
+        padding: 5px 20px;
+        border-bottom: 1px solid white !important;
+    }
+
+    ul.navbar-nav.mr-auto.nav-text {
+        position: absolute;
+        width: 100%;
+        background: #e8e3dc;
+        top: 115px;
+        left: 0;
+        text-align: center;
+    }
+
+    ul.navbar-nav.mr-auto.nav-text :hover{
+        background-color:#e8e3dc;
+        opacity: 0.6;
+    }
+    nav ul li:hover{
+        opacity: 0.6;
+    }
+
+    .sticky-header #header-menu{
+        display:none;
+    }
+
+    .partner-btn .btn-link {
+        display: none;
+    }
+
+    .social-btn.soc-btn {
+        margin-top: 10px;
+    }
+     /**************************************
+           Recipe details area start
+    **************************************/
+    input.submit-btn.btn-link,
+    input.reply-btn.btn-link {
+        margin-top: 15px;
+    }
+    .main-pagination {
+        float:left;
+    }
+    .main-pagination .pagination {
+        display:flex;
+    }
+     /**************************************
+            Profile setting area start
+    **************************************/
+    .tab-content-heading h4,
+    .link-title h4 {
+        font-size: 23px;
+    }
+     /**************************************
+            Checkout start
+    **************************************/
+    .coupon-input {
+        color: #341612;
+        Width: 79%;
+    }
+    button.apply-btn {
+        padding: 5px 6px;
+       
+    }
+}
+
+@media all and (max-width: 480px) {
+ 
+    .section-global, .footer .footer-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sticky-header #header-menu{
+        display:none;
+    }
+
+    .banner-text .title{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .new-heading h1{
+        font-size: 21px;
+        line-height: 40px;
+    }
+    .new-heading.explore-title h1 {
+        font-size: 21px;
+        line-height:40px;
+    }
+    section.order-food-online h1 {
+        font-size: 21px;
+    }
+    .owl-carousel .item {
+        display: inline-flex;
+        padding: 26px;
+    }
+
+    /**************************************
+            Footer area start
+    **************************************/
+
+    .footer .privacy-terms {
+        text-align: center;
+    }
+    .footer .cards {
+        text-align: center;
+    }
+    p.copyright-text.copyright-text-right.float-end {
+        margin-right: 146px;
+        line-height: 37px;
+    }
+    .footer .copyright .copyright-text{
+        font-size: 12px;
+    }
+
+    .subscribe {
+     display:block; 
+
+    }
+    button.subscribe-button.float-end {
+        margin-right: 120px;
+    }
+     /**************************************
+            Checkout start
+    **************************************/
+    .coupon-input {
+        color: #341612;
+        Width: 84%;
+    }
+    button.apply-btn {
+        padding: 5px 6px;
+       
+    }
+     /**************************************
+            Booking-tables start
+    **************************************/
+    .reservation h1 {
+        margin-top: 30px;
+    }
+    button.btn.btn-default.btn-lg.OT_TableButton {
+        white-space: nowrap;
+    }
+     
+}
